@@ -1,0 +1,8 @@
+# display status line 
+hardstatus alwayslastline 
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}]'
+
+# fix screen not source .bash_profile 
+shell -$SHELL
+screen bash
+vbell off
