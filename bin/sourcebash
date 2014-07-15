@@ -1,5 +1,5 @@
 #!/bin/bash
 
-source ~/.bashrc
-source ~/.bash_profile
-source ~/.profile
+[ -f ~/.bashrc ] && source ~/.bashrc
+[ -f ~/.bash_profile ] && source ~/.bash_profile
+[ -f ~/.profile ] && source ~/.profile
